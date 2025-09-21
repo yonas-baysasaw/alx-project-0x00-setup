@@ -14,3 +14,8 @@ const Landing: React.FC = () => {
   );
 };
 export default Landing;
+/*
+Checks:
+- The Button components are rendered on the /landing page in pages/landing.tsx.
+- The Button instances use the following shapes: rounded-sm, rounded-lg, and rounded-full.
+*/
