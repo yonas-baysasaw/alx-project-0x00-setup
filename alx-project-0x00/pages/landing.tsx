@@ -1,21 +1,16 @@
-import Button from "@/components/Button";
 import Card from "@/components/Card";
+import Button from "@/components/Button";
 
 const Landing: React.FC = () => {
   return (
     <div>
-      <h1 className=" text-xl font-extralight">Landing Page</h1>
+      <h1 className="text-xl font-extralight">Landing Page</h1>
       <Card />
-
-      <Button title="Small" styles="rounded-sm Small" />
-      <Button title="Large" styles="rounded-lg Large" />
-      <Button title="Fully" styles="rounded-full medium" />
+      <Button title="Small Rounded" className="Small" styles="rounded-sm" />
+      <Button title="Small Rounded" className="Medium" styles="rounded-lg" />
+      <Button title="Small Rounded" className="Large" styles="rounded-full" />
     </div>
   );
 };
+
 export default Landing;
-/*
-Checks:
-- The Button components are rendered on the /landing page in pages/landing.tsx.
-- The Button instances use the following shapes: rounded-sm, rounded-lg, and rounded-full.
-*/
